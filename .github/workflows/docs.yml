@@ -1,9 +1,6 @@
 name: Build and deploy JavaDocs
 
-on:
-  push:
-    branches:
-      - master
+on: workflow_dispatch
 
 permissions:
   # The generated docs are written to the `gh-pages` branch.
