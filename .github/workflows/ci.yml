@@ -44,7 +44,7 @@ jobs:
 
         # See gradle file for difference between downloaders
       - name: do whatever this means
-        run: mv /usr/lib/graalvm-jdk-* /usr/lib/graalvm
+        run: sudo mv /usr/lib/graalvm-jdk-* /usr/lib/graalvm
 
       - name: build
         run: |
